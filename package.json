@@ -9,7 +9,7 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "@hansgx/cubes": "0.0.2-alpha.3",
+    "@trampoline/cubes": "0.0.2-alpha.6",
     "expo": "~37.0.8",
     "react": "~16.9.0",
     "react-dom": "~16.9.0",

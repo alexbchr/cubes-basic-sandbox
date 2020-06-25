@@ -1,5 +1,5 @@
 import React from "react";
-import { DisplayText, Screen, TopBar } from "@hansgx/cubes";
+import { DisplayText, Screen, TopBar } from "@trampoline/cubes";
 import { MyAppBottomNavigation } from "../components/MyAppBottomNavigation";
 
 export const ProfileScreen: React.FC = () => (

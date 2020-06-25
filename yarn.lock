@@ -968,27 +968,6 @@
     pouchdb-collections "^1.0.1"
     tiny-queue "^0.2.1"
 
-"@hansgx/cubes@0.0.2-alpha.3":
-  version "0.0.2-alpha.3"
-  resolved "https://npm.pkg.github.com/download/@hansgx/cubes/0.0.2-alpha.3/24584b91ec5a4e4825aea2ab38354ccbf6e05f79db0012ed61e3730f7df6dfb7#27802ad60b28affbdbf7be61a095c6f951cce9c7"
-  integrity sha512-A7AcWHsN6jZRpFVqDJ1APBJSOr3sTjW66e4IspWkwO5paq/hrvlOulYkGJOeOxA3NLnJRxnTAo2zWaKLkHYw5g==
-  dependencies:
-    "@react-native-community/masked-view" "0.1.6"
-    "@react-navigation/bottom-tabs" "^5.5.2"
-    "@react-navigation/native" "^5.5.1"
-    "@react-navigation/stack" "^5.5.1"
-    lodash "^4.17.15"
-    react "16.9.0"
-    react-dom "^16.9.0"
-    react-is "^16.9.0"
-    react-native "https://github.com/expo/react-native/archive/sdk-37.0.0.tar.gz"
-    react-native-gesture-handler "~1.6.0"
-    react-native-reanimated "~1.7.0"
-    react-native-safe-area-context "0.7.3"
-    react-native-screens "~2.2.0"
-    react-native-svg "~11.0.1"
-    react-native-web "^0.11.7"
-
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
@@ -1214,6 +1193,27 @@
   dependencies:
     color "^3.1.2"
     react-native-iphone-x-helper "^1.2.1"
+
+"@trampoline/cubes@0.0.2-alpha.6":
+  version "0.0.2-alpha.6"
+  resolved "https://registry.yarnpkg.com/@trampoline/cubes/-/cubes-0.0.2-alpha.6.tgz#3282fe9097e0d37f4a697d20adafc82311e27b44"
+  integrity sha512-gQL/Yhj7l0cV4xcMhCyPi5IAy2F3oy1uA6GVtdowviLQNNd/bUQwCGAVowhxEYt+4u95l4XrGiZwLp8l5baM+Q==
+  dependencies:
+    "@react-native-community/masked-view" "0.1.6"
+    "@react-navigation/bottom-tabs" "^5.5.2"
+    "@react-navigation/native" "^5.5.1"
+    "@react-navigation/stack" "^5.5.1"
+    lodash "^4.17.15"
+    react "16.9.0"
+    react-dom "^16.9.0"
+    react-is "^16.9.0"
+    react-native "https://github.com/expo/react-native/archive/sdk-37.0.0.tar.gz"
+    react-native-gesture-handler "~1.6.0"
+    react-native-reanimated "~1.7.0"
+    react-native-safe-area-context "0.7.3"
+    react-native-screens "~2.2.0"
+    react-native-svg "~11.0.1"
+    react-native-web "^0.11.7"
 
 "@types/color-name@^1.1.1":
   version "1.1.1"

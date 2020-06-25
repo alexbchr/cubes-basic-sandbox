@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigation } from "../navigation/hooks";
-import { BottomNavigationBar } from "@hansgx/cubes";
+import { BottomNavigationBar } from "@trampoline/cubes";
 
 export interface MyAppBottomNavigationProps {
   current: "MoneyScreen" | "ExploreScreen" | "ProfileScreen";

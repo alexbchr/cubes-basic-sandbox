@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  DisplayText,
-  Screen,
-  TopBar,
-  Button,
-  BottomNavigationBar,
-} from "@hansgx/cubes";
+import { DisplayText, Screen, TopBar, Button } from "@trampoline/cubes";
 import { MyAppBottomNavigation } from "../components/MyAppBottomNavigation";
 import { useNavigation } from "../navigation/hooks";
 

@@ -2,7 +2,7 @@ import { MoneyScreen } from "../screens/MoneyScreen";
 import { ExploreScreen } from "../screens/ExploreScreen";
 import { ProfileScreen } from "../screens/ProfileScreen";
 import { TransactionDetailScreen } from "../screens/TransactionDetailScreen";
-import { NavigationSchema } from "@hansgx/cubes/dist/navigation";
+import { NavigationSchema } from "@trampoline/cubes";
 
 export const navigationSchema = {
   switch: [
