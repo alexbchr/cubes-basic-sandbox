@@ -1,15 +1,11 @@
-import { MoneyScreen } from "../screens/MoneyScreen";
-import { ExploreScreen } from "../screens/ExploreScreen";
-import { ProfileScreen } from "../screens/ProfileScreen";
-import { TransactionDetailScreen } from "../screens/TransactionDetailScreen";
 import { NavigationSchema } from "@trampoline/cubes";
+import { PostListScreen } from "../screens/PostListScreen";
+import { PostDetailScreen } from "../screens/PostDetailScreen";
 
 export const navigationSchema = {
-  switch: [
-    { stack: [{ MoneyScreen }, { TransactionDetailScreen }] },
-    { ExploreScreen },
-    { ProfileScreen },
-  ],
+  stack: [{ PostListScreen }, { PostDetailScreen }],
 } as const;
 
 navigationSchema as NavigationSchema; // Simply assert it is a NavigationSchema
+
+export type MyAppNavigationSchema = typeof navigationSchema;

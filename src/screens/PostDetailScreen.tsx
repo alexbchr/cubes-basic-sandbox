@@ -1,13 +1,11 @@
 import React from "react";
 import { DisplayText, Screen, TopBar } from "@trampoline/cubes";
 
-export interface TransactionDetailScreenProps {
+export interface PostDetailScreenProps {
   id: string;
 }
 
-export const TransactionDetailScreen: React.FC<TransactionDetailScreenProps> = ({
-  id,
-}) => (
+export const PostDetailScreen: React.FC<PostDetailScreenProps> = ({ id }) => (
   <Screen>
     <TopBar title="Transaction Detail" />
     <Screen.Content padding="medium">
